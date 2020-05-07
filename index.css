@@ -39,15 +39,15 @@ body{
   width:100%;
   height:1px;
   border-bottom: 2px solid red;  
-  -webkit-animation: action 1s infinite  alternate;
-  animation: action 1s infinite  alternate;
+  -webkit-animation: action2 1s infinite  alternate;
+  animation: action2 1s infinite  alternate;
 }
 
-@-webkit-keyframes action {
+@-webkit-keyframes action2 {
   0% { transform: translateY(60); }
   100% { transform: translateY(440px); }
 }
-@keyframes action {
+@keyframes action2 {
   0% { transform: translateY(60); }
   100% { transform: translateY(440px); }
 }
